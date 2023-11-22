@@ -1,9 +1,32 @@
 #pragma once
 // 함수 원형
-	void DefineFunction();
 	void CppBasic();
 	void Variable();
 	void Arithmetic();
 	void Increment();
 	void CompareFunction();
 	void Logical();
+	void IfFunctionDesc();
+	void IfFunctionEx01();
+	void IfFunctionEx02(int);
+	void IfNestDesc();
+	void IfNestEx01();
+	void IfNestEx02();
+	void SwitchEx();
+	void ForFunctionDesc();
+	void ForFunctionEx01();
+	void ForFunctionEx02();
+	void ForFunctionEx03();
+	void ForFunctionEx04();
+	void WhileFunctionDesc();
+	void WhileFunctionEx01();
+	void ParameterFunction(int Param1, int Param2);
+	int ReturnFunction();
+	int ParamReturn(int Param1, int Param2);
+	void Sum();
+	void PrintArray();
+	void SumArray();
+	char Grade(int);
+	void ProcessScore();
+	void stringArray();
+	void BubbleSort();
