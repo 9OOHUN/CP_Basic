@@ -6,27 +6,60 @@ void DefineFunction();
 
 int main()
 {
-	// --- 매개변수 호출
-	// ParameterFunction(10, 20);
-	// ParameterFunction(30, 40);
+	/*
+		// **매개변수 호출
+		// ParameterFunction(10, 20);
+		// ParameterFunction(30, 40);
+		
+		// **리턴값 호출
+		//cout << 50 + ReturnFunction() << endl;
+		
+		// **매개변수 + 리턴값 호출
+		// cout << 30 + ParamReturn(10, 20) << endl;
+		// cout << 30 + ParamReturn(30, 40) << endl;
+		// cout << 30 + ParamReturn(50, 60) << endl;
+		
+		// **배열
+		// PrintArray();
+		
+		// SumArray();
+		
+		// ProcessScore();
+		
+		// **버블 정렬, 다차원 배열
+		// BubbleSort();
+		// MultiArray();
+		
+		// **구조체
+		// DefineStructure();
+		// StructureArray();
+		
+		// **열거체
+		// Enumeration();
+		// EnumerationEnum();
 
-	// --- 리턴값 호출
-	//cout << 50 + ReturnFunction() << endl;
+		// **연습문제 01 23.11.23.
+		// **교재 162p 제어문 프로그래밍문제
+		// EvenOdd();
+		// PrintEven();
+	
+		// StandardGrade();
+	
+		// **연습문제 02 23. 11. 23.
+		// **교재 225p 제어문 프로그래밍문제
+		// ArraySum();
+		// Reverse();
+		// Sort();
+	*/	
 
-	// --- 매개변수 + 리턴값 호출
-	//cout << 30 + ParamReturn(10, 20) << endl;
-	//cout << 30 + ParamReturn(30, 40) << endl;
-	//cout << 30 + ParamReturn(50, 60) << endl;
+	// **연습문제 03 숙제 포함
+	// cout << Absolute(-5);
 
-	// --- 배열
-	//PrintArray();
+	// GradeHomeWork();
+	// GradeTest();
 
-	//SumArray();
+	
 
-	//ProcessScore();
-
-	// --- 버블 정렬
-	BubbleSort();
 }
 
 // 함수 정의 : main함수 뒤에 정의를 해야 함

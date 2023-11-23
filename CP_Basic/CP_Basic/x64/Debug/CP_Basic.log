@@ -1,2 +1,4 @@
-﻿  Ch08_Array.cpp
-  CP_Basic.vcxproj -> C:\Users\addinedu\Documents\UE\CP_Basic\CP_Basic\x64\Debug\CP_Basic.exe
+﻿  CP_Basic.cpp
+  Ex01_Flow.cpp
+  Generating Code...
+C:\Users\addinedu\Documents\UE\CP_Basic\CP_Basic\CP_Basic\Ex01_Flow.cpp(75,2): error C3861: 'StandardGrade': identifier not found

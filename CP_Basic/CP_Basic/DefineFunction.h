@@ -30,3 +30,22 @@
 	void ProcessScore();
 	void stringArray();
 	void BubbleSort();
+	void MultiArray();
+	void DefineStructure();
+	void StructureArray();
+	void Enumeration();
+	void EnumerationEnum();
+	void EvenOdd();
+	void Homework01();
+	void PrintEven();
+	void HomeWork02();
+	void Median(float, float);
+	void StandardGrade();
+	void ArraySum();
+	void Sort();
+	void Reverse();
+	int Absolute(int);
+	void GradeTest();
+	void GradeHomeWork();
+	void Grade();
+
