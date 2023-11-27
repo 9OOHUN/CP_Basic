@@ -48,4 +48,14 @@
 	void GradeTest();
 	void GradeHomeWork();
 	void Grade();
+	void PonterVar();
+	void PointerCalc();
+	void PointerArray();
+	void DynamicAlloc();
+	void DynamicAlloc2();
+	void DynamicArray();
+	void InputArraySize();
+	void InputBall();
+	void DiceGame();
+
 

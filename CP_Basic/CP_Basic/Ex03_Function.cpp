@@ -79,5 +79,3 @@ void SubAverage()
 int SubK[4];
 int SubE[4];
 int SubM[4];
-
-cout << Subk[]

@@ -52,13 +52,28 @@ int main()
 		// Sort();
 	*/	
 
-	// **연습문제 03 숙제 포함
+	// **연습문제 03 숙제 포함 2023. 11. 24.
 	// cout << Absolute(-5);
 
 	// GradeHomeWork();
 	// GradeTest();
 
-	
+	// InputBall();
+	DiceGame();
+
+	// **2023. 11. 27.
+	// **포인터
+
+	// PonterVar();
+	// PointerCalc(); // <- 포인터 연산
+	// PointerArray(); // <- 포인터 배열
+
+	// **동적 할당
+
+	// DynamicAlloc();
+	// DynamicAlloc2();
+	// DynamicArray();
+	// InputArraySize();
 
 }
 
@@ -80,7 +95,7 @@ void DefineFunction()
 		2^0 ~ 2^10 : 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 정도는 기억하면 좋다, 256(2^8) 많이씀 = 8bit(1byte)
 		유니코드 UTF-8 : 천자문같은 언어 커버 위해 2byte(16bit) = 2^16으로 설정한 문자 표기법
 		트루컬러 : 2^24(24bit) RGB 가상혼합(섞으면 밝아짐), 물감은 감상혼합(섞으면 어두워짐)
-		- R 8bit, G 8bit, B 8bit = 24bit
+		- R 8bit(1byte), G 8bit, B 8bit = 24bit
 		색표현, 문자 표현, 아이피주소 표현 : 1byte(8bit) 기준으로 확장
 
 		= : 왼쪽에 변수, 오른쪽에 데이터값으로 [대입, 할당(assign)]이라는 뜻으로 사용(수학처럼 동등하다 아님)
