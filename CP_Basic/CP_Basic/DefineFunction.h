@@ -57,5 +57,11 @@
 	void InputArraySize();
 	void InputBall();
 	void DiceGame();
+	void DefineClass();
+	void PrintPlayer();
+	void PrintAirplane();
+	void DynamicAirplane();
+	void Score();
+
 
 

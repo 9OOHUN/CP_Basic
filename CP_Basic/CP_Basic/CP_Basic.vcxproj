@@ -139,14 +139,24 @@
     <ClCompile Include="Ch10_Enumeration.cpp" />
     <ClCompile Include="Ch11_Pointer.cpp" />
     <ClCompile Include="Ch12_Dynamic.cpp" />
+    <ClCompile Include="Ch13-1_ClassHeader.h" />
+    <ClCompile Include="Ch13-1_ClassMethod.cpp" />
+    <ClCompile Include="Ch13-2_AirplaneMethod.cpp" />
+    <ClCompile Include="Ch13-3_This.cpp" />
+    <ClCompile Include="Ch13-3_This.h" />
+    <ClCompile Include="Ch13_Class.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
     <ClCompile Include="Ex03_Function.cpp" />
     <ClCompile Include="Ex04_Ball.cpp" />
     <ClCompile Include="Ex05_Dice.cpp" />
+    <ClCompile Include="Ex06_Score.cpp" />
+    <ClCompile Include="Ex06_ScoreMethod.cpp" />
+    <ClCompile Include="Ex06_ScoreClass.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch13-2_Airplane.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="io.h" />
   </ItemGroup>
