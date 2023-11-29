@@ -38,20 +38,22 @@ int main()
 		// Enumeration();
 		// EnumerationEnum();
 
-		// **연습문제 01 23.11.23.
+		// 2023.11.23.
+		// **연습문제 01
 		// **교재 162p 제어문 프로그래밍문제
 		// EvenOdd();
 		// PrintEven();
 
 		// StandardGrade();
 
-		// **연습문제 02 23. 11. 23.
+		// **연습문제 02
 		// **교재 225p 제어문 프로그래밍문제
 		// ArraySum();
 		// Reverse();
 		// Sort();
 
-			// **연습문제 03 숙제 포함 2023. 11. 24.
+		// 2023. 11. 24.
+		// **연습문제 03 숙제 포함
 		// cout << Absolute(-5);
 
 		// GradeHomeWork();
@@ -61,28 +63,48 @@ int main()
 		DiceGame();
 
 		// **2023. 11. 27.
-		// **포인터
+		// **Ch11. 포인터
 
 		// PonterVar();
 		// PointerCalc(); // <- 포인터 연산
 		// PointerArray(); // <- 포인터 배열
 
-		// **동적 할당
+		// **Ch12.동적 할당
 
 		// DynamicAlloc();
 		// DynamicAlloc2();
 		// DynamicArray();
 		// InputArraySize();
+
+		// 2023. 11. 28.
+		// **Ch13. 클래스
+		// DefineClass();
+
+		// PrintPlayer();
+		// PrintAirplane();
+		// DynamicAirplane();
+
+		// **Ex06. 클래스 연습문제
+		// Score();
+
+		// 2023. 11. 29.
+		// **Ch14. 배열 클래스
+		// ArrayClass();
+
+		// **Ch15. 문자열 클래스
+		// StringClass();
+
+		// **Ch16. 벡터 클래스
+		// VectorClass();
+
+		// **Ch17. 중복선언(오버로딩)
+		//OverloadingFunction();
+
 	*/
 
-	// **클래스 2023. 11. 28.
-	// DefineClass();
-	
-	// PrintPlayer();
-	// PrintAirplane();
-	// DynamicAirplane();
-
-	Score();
+	// **Ex07. 클래스 생성 연습문제
+	// CRobotSpec();
+	MemberShip();
 
 }
 

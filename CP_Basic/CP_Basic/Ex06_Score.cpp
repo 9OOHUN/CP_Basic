@@ -16,33 +16,49 @@
 
 void Score()
 {
+/*
+	*직관적 원본
+	
 	Student st01('W', 100, 100, 50);
 	Student st02('X', 90, 70, 80);
 	Student st03('Y', 70, 80, 90);
 	Student st04('Z', 80, 100, 90);
 
-	st01.OperationTotal();
-	st01.OperationAverage();
-	st01.OperationGrade();
 	st01.PrintScore();
-	cout << endl;
-
-	st02.OperationTotal();
-	st02.OperationAverage();
-	st02.OperationGrade();
 	st02.PrintScore();
-	cout << endl;
-
-	st03.OperationTotal();
-	st03.OperationAverage();
-	st03.OperationGrade();
 	st03.PrintScore();
-	cout << endl;
-
-	st04.OperationTotal();
-	st04.OperationAverage();
-	st04.OperationGrade();
 	st04.PrintScore();
-}
 
-// 코드 => 수정/개선 => Refactoring
+	↑ 값이 불규칙적으로 반복문 패턴 생성 어려움
+
+	*데이터 입력방법
+		- 키보드, 직접입력
+		- 파일, Database 불러오기 (GPT 등 LLM씀(Large Language Model)구글기록비슷
+		- 데이터 가져올때 [표], 즉 [2차원 배열]로 가져오면 활용 편해짐
+		→ 배열은 타입이 하나로 정해짐(int, char 등), 위처럼 char 섞인 경우 배열을 2개로 나누기
+		→ 배열[이름] 1개, 배열[점수]2차원배열 1개
+*/
+
+	// **코드 => 수정/개선 => Refactoring
+
+	char Name[4] = { 'W', 'X', 'Y', 'Z' };
+
+	int Score[4][3] = 
+	{
+		{100,100,50},
+		{90,70,80},
+		{70,80,90},
+		{80,100,90}
+	};
+
+	// 반복문 쓰려면 set, get 활용해야함
+	Student st[4];
+
+	for (int i = 0; i < 4; i++) {
+		st[i].Set(Name[i], Score[i][0], Score[i][1], Score[i][2]);
+	}
+
+	for (int i = 0; i < 4; i++) {
+		st[i].PrintScore();
+	}
+}
