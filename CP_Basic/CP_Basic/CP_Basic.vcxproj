@@ -159,7 +159,7 @@
     <ClCompile Include="Ch19_ClassKeywordMethod.cpp" />
     <ClCompile Include="Ch20_Type.cpp" />
     <ClCompile Include="Ch21_Virtual.cpp" />
-    <ClCompile Include="Ch21_VirtualMethod.cpp.cpp" />
+    <ClCompile Include="Ch21_VirtualMethod.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
@@ -173,8 +173,8 @@
     <ClCompile Include="Ex07_RobotMethod.cpp" />
     <ClCompile Include="Ex08_Member.cpp" />
     <ClCompile Include="Ex09_MemberMethod.cpp" />
-    <ClCompile Include="Ex9_450p.cpp" />
-    <ClCompile Include="Ex9_450pMethod.cpp" />
+    <ClCompile Include="Ex10_450p.cpp" />
+    <ClCompile Include="Ex10_450pMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ch13-2_Airplane.h" />
@@ -185,7 +185,7 @@
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="Ex07_RobotClass.h" />
     <ClInclude Include="Ex08_Member.h" />
-    <ClInclude Include="Ex9_450pClass.h" />
+    <ClInclude Include="Ex10_450pClass.h" />
     <ClInclude Include="io.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

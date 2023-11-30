@@ -120,7 +120,7 @@ int main()
 	// **Ch21. 가상함수 Virtual
 	// Virtual();
 
-	// **Ex09. 교재 450p 문제
+	// **Ex10. 교재 450p 문제
 	Person();
 }
 
