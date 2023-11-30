@@ -68,6 +68,12 @@
 	void OverloadingFunction();
 	void CRobotSpec();
 	void MemberShip();
+	void Inheritance();
+	void Inherit();
+	void ClassKeword();
+	void Type();
+	void Virtual();
+	void Person();
 
 
 

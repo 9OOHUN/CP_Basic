@@ -98,14 +98,30 @@ int main()
 		// VectorClass();
 
 		// **Ch17. 중복선언(오버로딩)
-		//OverloadingFunction();
+		//OverloadingFunction();\
+
+		// **Ex07. 클래스 생성 연습문제
+		// CRobotSpec();
+		// MemberShip();
+
+		// 2023. 11. 30.
+		// **Ch18. 클래스 상속
+		// Inheritance();
+		// Inherit();
+
+		// **Ch19. 클래스 키워드(스태틱 등)
+		// ClassKeword();
 
 	*/
 
-	// **Ex07. 클래스 생성 연습문제
-	// CRobotSpec();
-	MemberShip();
+	// **Ch20. 형변환 Type Cast
+	// Type();
 
+	// **Ch21. 가상함수 Virtual
+	// Virtual();
+
+	// **Ex09. 교재 450p 문제
+	Person();
 }
 
 // 함수 정의 : main함수 뒤에 정의를 해야 함

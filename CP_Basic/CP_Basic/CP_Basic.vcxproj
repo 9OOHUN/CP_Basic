@@ -151,6 +151,15 @@
     <ClCompile Include="Ch17-1_OverloadingClass.h" />
     <ClCompile Include="Ch17-1_OverloadingMethod.cpp" />
     <ClCompile Include="Ch17_Overloading.cpp" />
+    <ClCompile Include="Ch18-1_Inherit.cpp" />
+    <ClCompile Include="Ch18-1_InheritMethod.cpp" />
+    <ClCompile Include="Ch18_Inheritance.cpp" />
+    <ClCompile Include="Ch18_InheritanceMethod.cpp" />
+    <ClCompile Include="Ch19_ClassKeyword.cpp" />
+    <ClCompile Include="Ch19_ClassKeywordMethod.cpp" />
+    <ClCompile Include="Ch20_Type.cpp" />
+    <ClCompile Include="Ch21_Virtual.cpp" />
+    <ClCompile Include="Ch21_VirtualMethod.cpp.cpp" />
     <ClCompile Include="CP_Basic.cpp" />
     <ClCompile Include="Ex01_Flow.cpp" />
     <ClCompile Include="Ex02_Array.cpp" />
@@ -164,12 +173,19 @@
     <ClCompile Include="Ex07_RobotMethod.cpp" />
     <ClCompile Include="Ex08_Member.cpp" />
     <ClCompile Include="Ex09_MemberMethod.cpp" />
+    <ClCompile Include="Ex9_450p.cpp" />
+    <ClCompile Include="Ex9_450pMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ch13-2_Airplane.h" />
+    <ClInclude Include="Ch18-1_Inherit.h" />
+    <ClInclude Include="Ch18_Inheritance.h" />
+    <ClInclude Include="Ch19_ClassKeyword.h" />
+    <ClInclude Include="Ch21_Virtual.h" />
     <ClInclude Include="DefineFunction.h" />
     <ClInclude Include="Ex07_RobotClass.h" />
     <ClInclude Include="Ex08_Member.h" />
+    <ClInclude Include="Ex9_450pClass.h" />
     <ClInclude Include="io.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
