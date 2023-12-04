@@ -39,28 +39,30 @@ int main()
 		// EnumerationEnum();
 
 		// 2023.11.23.
-		// **연습문제 01
+		// **Ex01
 		// **교재 162p 제어문 프로그래밍문제
 		// EvenOdd();
 		// PrintEven();
 
 		// StandardGrade();
 
-		// **연습문제 02
+		// **Ex02
 		// **교재 225p 제어문 프로그래밍문제
 		// ArraySum();
 		// Reverse();
 		// Sort();
 
 		// 2023. 11. 24.
-		// **연습문제 03 숙제 포함
+		// **Ex03 숙제 포함
 		// cout << Absolute(-5);
 
 		// GradeHomeWork();
 		// GradeTest();
 
 		// InputBall();
-		DiceGame();
+		// DiceGame();
+
+		// Pr5597();
 
 		// **2023. 11. 27.
 		// **Ch11. 포인터
@@ -112,16 +114,17 @@ int main()
 		// **Ch19. 클래스 키워드(스태틱 등)
 		// ClassKeword();
 
+		// **Ch20. 형변환 Type Cast
+		// Type();
+
+		// **Ch21. 가상함수 Virtual
+		// Virtual();
+
+		// **Ex10. 교재 450p 문제
+		/ Person();
 	*/
-
-	// **Ch20. 형변환 Type Cast
-	// Type();
-
-	// **Ch21. 가상함수 Virtual
-	// Virtual();
-
-	// **Ex10. 교재 450p 문제
-	Person();
+	
+	
 }
 
 // 함수 정의 : main함수 뒤에 정의를 해야 함

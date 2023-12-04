@@ -58,24 +58,23 @@ void GradeHomeWork()
 
 }
 
-// 255p. 2. 다음은 네 학생의 국어, 영어, 수학 성적이다. 각 학생별 총점을 구하고, 각 과목별 평균을 출력하시오.
-void TotalScore()
-{
-	int SubK = 0;
-	int SubE = 0;
-	int SubM = 0;
+// 백준 과제 안내신 분..? <- 배열
 
-	int Total = SubK + SubE + SubM;
-	cout << Total << endl;
+void Pr5597() {
+
+	int arr[31] = { 0 };
+	int A = 0;
+
+	for (int i = 0; i < 28; i++) {
+		cin >> A;
+		arr[i] = 0;
+	}
+
+	for (int i = 1; i <= 30; i++) {
+		if (!arr[i]) {
+			cout << i << endl;
+		}
+
+	}
+
 }
-
-void SubAverage()
-{
-	int Class01 = 0;
-	int Class02 = 0;
-	int Class03 = 0;
-}
-
-int SubK[4];
-int SubE[4];
-int SubM[4];

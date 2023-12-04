@@ -153,10 +153,10 @@
     <ClCompile Include="Ch21_VirtualMethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex10_450p.cpp">
+    <ClCompile Include="Ex10_Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex10_450pMethod.cpp">
+    <ClCompile Include="Ex10_PersonMethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -188,7 +188,7 @@
     <ClInclude Include="Ch21_Virtual.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Ex10_450pClass.h">
+    <ClInclude Include="Ex10_PersonClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
